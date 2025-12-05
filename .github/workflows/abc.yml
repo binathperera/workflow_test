@@ -2,7 +2,7 @@ name: Hello World
 on: [push]
 jobs:
   say-hello:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Print message
-  run: echo "Hello, world! GitHub Actions is running."
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "Hello, world! GitHub Actions is running."
